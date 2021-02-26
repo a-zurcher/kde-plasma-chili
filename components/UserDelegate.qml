@@ -71,7 +71,7 @@ Item {
         Image {
             id: face
             source: wrapper.avatarPath
-            sourceSize: Qt.size(faceSize, faceSize)
+            sourceSize: Qt.size(faceSize * 2, faceSize * 2)
             smooth: true
             fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
